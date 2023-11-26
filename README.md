@@ -1,14 +1,14 @@
-# docker-openwrt-r8000
+## docker-openwrt-r8000
 
-## Docker OpenWrt Image Builder for Netgear R8000 routers (and others)
+#### Docker OpenWrt Image Builder for Netgear R8000 routers (and others)
 
 * Edit .env to configure OpenWrt's ImageBuilder options.
-* Add your files to the 'files/' DIR (preserve the DIR tree structure).
+* Copy files into the `files/` directory (preserving directory tree structure).
 * Run the image build command: `docker compose up`
-* Find build images generated in 'bin/' DIR.
-* Flash the correct image to the router device.
+* Find the images generated in the `bin/` directory.
+* Flash the appropriate device image to your router.
 
-## Untracked paths in .gitignore
+#### Untracked paths in `.gitignore`
 
 * bin/
 * files/

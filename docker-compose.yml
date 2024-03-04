@@ -11,7 +11,7 @@
 services:
   make-image:
     image: openwrt/imagebuilder:${TARGET}-${SUBTARGET}-${RELEASE}
-    command: ['make', '-i', '-j1', 'image', "PROFILE=${PROFILE}", "PACKAGES=${PACKAGES}", "FILES=${FILES}", "BIN_DIR=${BIN_DIR}", "EXTRA_IMAGE_NAME=${EXTRA_IMAGE_NAME}", "DISABLE_SERVICES=${DISABLE_SERVICES}", "ADD_LOCAL_KEY=${ADD_LOCAL_KEY}"]
+    command: ['make', '-i', '-j1', 'image', "PROFILE=${PROFILE}", "PACKAGES=${PACKAGES}", "FILES=${FILES}", "BIN_DIR=${BIN_DIR}", "EXTRA_IMAGE_NAME=${EXTRA_IMAGE_NAME}", "DISABLED_SERVICES=${DISABLED_SERVICES}", "ADD_LOCAL_KEY=${ADD_LOCAL_KEY}"]
     volumes:
       - type: bind
         source: ./files

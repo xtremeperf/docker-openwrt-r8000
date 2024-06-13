@@ -4,7 +4,7 @@
 
 > The OpenWrt Image Builder is a pre-compiled environment suitable for creating custom images without the need for compiling them from source. It downloads pre-compiled packages and integrates them in a single flashable image.
 
-The project in this repository provides a thin Docker wrapper around the OpenWet Image Build to ease firmware image creation, maintenance and version control using the Docker-Compose tool.
+The project in this repository provides a thin Docker wrapper around the OpenWrt Image Build to ease firmware image creation, maintenance and version control using the Docker-Compose tool.
 
 #### Build firmware image for your device:
 
